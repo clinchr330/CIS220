@@ -1,3 +1,5 @@
+// Rafael Clinch
+//Chpt2 PA
 #include <stdio.h>
 
 // Recursive function to calculate power
