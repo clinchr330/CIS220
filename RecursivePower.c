@@ -22,7 +22,7 @@ int main() {
 
     result = power(base, exponent); // Calls power function to perform the ccalculation
 
-    printf("%d^%d = %d\n", base, exponent, result);
+    printf("Value is %d\n", result);
 
     return 0;
 }
