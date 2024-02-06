@@ -1,9 +1,9 @@
 // Rafael Clinch
-//Chpt2 PA
+// Chpt2 PA
 #include <stdio.h>
 
-// Recursive function to calculate power
-int power(int base, int exponent) {
+
+int power(int base, int exponent) { // Recursive function that calculates power
     if (exponent == 1) {
         return base;
     } else {
@@ -14,13 +14,13 @@ int power(int base, int exponent) {
 int main() {
     int base, exponent, result;
 
-    printf("Enter base: ");
+    printf("Enter base: "); // Prompt user for base number
     scanf("%d", &base);
 
-    printf("Enter exponent: ");
+    printf("Enter exponent: "); // Prompt user for exponent
     scanf("%d", &exponent);
 
-    result = power(base, exponent);
+    result = power(base, exponent); // Calls power function to perform the ccalculation
 
     printf("%d^%d = %d\n", base, exponent, result);
 
